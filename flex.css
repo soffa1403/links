@@ -1,0 +1,201 @@
+.ytbtn {
+  transition: .9s;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: Kakashki;
+  font-size: 17px;
+  border: 3px solid white;
+  border-radius: 5%;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  left: -713px;
+  bottom: 240px;
+  color: white;
+}
+
+.ytbtn:hover {
+  transition: .9s;
+  background-color: #9c1f16;
+  color: #e86d64;
+}
+
+.vkbtn {
+  transition: .9s;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: Kakashki;
+  font-size: 17px;
+  border: 3px solid white;
+  border-radius: 5%;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  left: 50px;
+  bottom: 435px;
+  color: white;
+}
+
+.vkbtn:hover {
+  transition: .9s;
+  background-color: #1e5da6;
+  color: #5992d4;
+}
+
+.tgbtn {
+  transition: .9s;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: Kakashki;
+  font-size: 17px;
+  border: 3px solid white;
+  border-radius: 5%;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  left: -204px;
+  bottom: 370px;
+  color: white;
+}
+
+.tgbtn:hover {
+  transition: .9s;
+  background-color: #057ea3;
+  color: white;
+}
+
+.rbbtn {
+  transition: .9s;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: Kakashki;
+  font-size: 17px;
+  border: 3px solid white;
+  border-radius: 5%;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  left: -459px;
+  bottom: 305px;
+  color: white;
+}
+
+.rbbtn:hover {
+  transition: .9s;
+  background-color: #616161;
+  color: white;
+}
+
+.avatar {
+  transition: .9s;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: relative;
+  left: 550px;
+  top: -75px;
+}
+
+.piskin {
+  position: relative;
+  transition: 3s;
+  right: 899px;
+  top: 370px;
+}
+
+.piskin:hover {
+  width: 150px;
+  height: 150px;
+  transition: 3s;
+  opacity: 0%
+}
+
+.ramochka {
+  margin-top: -370px;
+  margin-left: 15px;
+  border: solid 10px white;
+  border-radius: 2%;
+  width: 800px;
+  height: 450px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.nazvano4ka {
+  animation-name: nazvano4ka-transform-keyframes;
+  animation-duration: 100000000ms;
+  animation-delay: 0ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+  margin-left: 415px;
+  margin-top: 35px;
+}
+@keyframes nazvano4ka-transform-keyframes {
+  0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(7500000deg) rotateZ(0deg) translate(-50%, -50%);}
+}
+
+.nazvano4ka:hover {
+  animation: pidorasitnepodetski 60s;
+}
+@keyframes pidorasitnepodetski {
+  0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {transform:translate(0px, 0px) scale(1) rotateX(3000000000deg) rotateY(3000000000deg) rotateZ(3000000000deg) translate(-50%, -50%);}
+}
+
+.ogrizki {
+  margin-top: -100px;
+  position: absolute;
+  right: -90px;
+  top: 850px;
+  animation-name: ogrizki-transform-keyframes;
+  animation-duration: 10000ms;
+  animation-delay: 0ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+}
+@keyframes ogrizki-transform-keyframes {
+  0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {transform:translate(0px, -900px) scale(1) rotateX(0deg) rotateY(150deg) rotateZ(150deg) translate(-50%, -50%);}
+}
+
+.ogrizki2 {
+  margin-top: -100px;
+  position: absolute;
+  right: -90px;
+  top: 850px;
+  animation-name: ogrizki2-transform-keyframes;
+  animation-duration: 10000ms;
+  animation-delay: 3333ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+}
+@keyframes ogrizki2-transform-keyframes {
+  0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {transform:translate(0px, -900px) scale(0.5) rotateX(150deg) rotateY(0deg) rotateZ(150deg) translate(-50%, -50%);}
+}
+
+.ogrizki3 {
+  margin-top: -100px;
+  position: absolute;
+  right: -90px;
+  top: 850px;
+  animation-name: ogrizki3-transform-keyframes;
+  animation-duration: 10000ms;
+  animation-delay: 6666ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+}
+@keyframes ogrizki3-transform-keyframes {
+  0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {transform:translate(0px, -900px) scale(1.5) rotateX(150deg) rotateY(150deg) rotateZ(0deg) translate(-50%, -50%);}
+}
+
+
